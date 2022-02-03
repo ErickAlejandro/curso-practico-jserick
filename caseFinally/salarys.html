@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SALARIOS MAS BAJOS Y MAS ALTOS DE ECUADOR POR STATUS ECONOMICO</title>
+</head>
+<body>
+    
+    <h1>SALARIOS Y ESTUDIO</h1>
+    <section>
+        <form id="SalariosStatus">
+            <div>
+                <label for="TipoStatus">Seleccionar el tipo de estatus Social requerido</label>
+                <select name="Status" id="TipoStatus">
+                    <option value="1500, 1000, 2500, 750">Estatus Alto</option>
+                    <option value="1500, 750, 810, 920">Estatus Medio</option>
+                    <option value="350, 360, 250, 190">Estatus Bajo</option>
+                </select>
+
+                <button type="button" id="listaSeleccionada" onclick="mostrarSociedad()">Mostrar la Lista Seleccionada</button>
+                <button type="button" id="promedioList" onclick="mostrarPromedioList()">Mostrar promedio de la Lista</button>
+            </div>
+            <p id="ValorListaSelect"></p>
+            <p id="promedioList"></p>
+        </form>
+    </section>
+
+    <script src="salary.js"></script>
+    <script src="helpers.js"></script>
+    <script src="analitycs.js"></script>
+</body>
+</html>

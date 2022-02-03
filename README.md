@@ -20,3 +20,8 @@ This is a project that have as objective show all to learning during the course 
 - Third step: Create functions.
 - Fourth step: Use Javascript with html.
 
+## Taller 3: Promedio Media, mediana y moda.
+- first step: Apply this process in Javascript.
+- Second step: Formulate calculates about this cuantify.
+- Third step: Create functions.
+- Fourth step: Use Javascript with html.
