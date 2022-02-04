@@ -6,9 +6,6 @@
 //     mostrarSociedad();
 // }, true);
 
-
-
-
   function mostrarSociedad(){
     const sociedad = document.getElementById("TipoStatus");
     const valueSociedad = sociedad.value;
